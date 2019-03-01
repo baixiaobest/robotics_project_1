@@ -1,0 +1,21 @@
+Script started on Fri Mar  1 05:00:19 2019
+# ls
+CMakeLists.txt	build  model  run_build.sh  script  typescript	world
+# l ls
+CMakeLists.txt	build  model  run_build.sh  script  typescript	world
+# cd scri	
+sh: 3: cd: can't cd to scri
+# cd scritp  pt
+# ls
+welcome_message.cpp
+# vim wel	       vim welcome_message.cpp
+7[?47h[?1h=[2;1H½[6n[2;1H  [1;1H]11;?[1;17r[m[H[2J[17;1H"welcome_message.cpp" 16L, 366C[>c[1;1H[35m#include [m[31m<gazebo/gazebo.hh>[m
+[32mnamespace[m gazebo
+{
+  [32mclass[m WelcomeMessage : [33mpublic[m WorldPlugin
+  {
+    [33mpublic[m: WorldPluginMyRobot() : WorldPlugin()[7;13H{[8;15Hprintf([31m"Welcome to gazebo[m[35m\n[m[31m"[m);[9;13H}[11;5H[33mpublic[m: [32mvoid[m Load(physics::WorldPtr _world, sdf::ElementPtr _sdf)[12;13H{[13;13H}
+  };
+  GZ_REGISTER_WORLD_PLUGIN(WelcomeMessage)
+}[17;114H1,1[11CAll[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[17;114H2[2;1H
+[46m{[16;1H}[m[17;114H3[3;1H{[16;1H}[17;114H4[4;1H[17;114H5[5;1H[17;114H6[6;1H[17;116H2[6;2H[17;116H3[6;3H[17;116H4[6;4H[17;116H5[6;5H[17;116H6[6;6H[5;3H[46m{[14;3H}[m[17;114H5,3[5;3H{[14;3H}[17;114H6,6[6;6H[17;116H7[6;7H[17;116H8[6;8H[17;116H9[6;9H[17;116H10[6;10H[17;117H1[6;11H[17;117H2[6;12H[17;117H3[6;13H[17;117H4[6;14H[17;117H5[6;15H[17;117H6[6;16H[17;117H7[6;17H[17;117H8[6;18H[17;117H9[6;19H[17;116H20[6;20H[17;117H1[6;21H[17;117H2[6;22H[17;117H3[6;23H[17;117H4[6;24H[17;117H5[6;25H[17;117H6[6;26H[17;117H7[6;27H[17;117H8[6;28H[17;117H9[6;29H[17;116H30[6;30Ht[46m()[m[17;117H1[6;31H()[17;117H0[6;30H[17;116H29[6;29H[17;117H8[6;28H[17;117H7[6;27H[17;117H6[6;26H[17;117H5[6;25H[17;117H4[6;24H[17;117H3[6;23H[17;117H2[6;22H[17;117H1[6;21H[17;117H0[6;20H[17;116H19[6;19H[17;117H8[6;18H[17;117H7[6;17H[17;117H6[6;16H[17;1H[1m-- INSERT --[m[17;13H[K[17;114H6,16[10CAll[6;16H[17;117H7[6;17H[17;117H8[6;18H[17;117H9[6;19H[17;116H20[6;20H[17;117H1[6;21H[17;117H2[6;22H[17;117H3[6;23H[17;117H4[6;24H[17;117H5[6;25H[17;117H6[6;26H[17;117H7[6;27H[17;117H8[6;28H[17;117H9[6;29H[17;116H30[6;30Ht[46m()[m[17;117H1[6;31H([46m) [m: WorldPlugin()[6;48H[K[6;30H[46m([m[1C [17;117H0[6;30H([46m) [m: WorldPlugin()[6;47H[K[6;29H[46m([m[1C [17;116H29[6;29H([46m) [m: WorldPlugin()[6;46H[K[6;28H[46m([m[1C [17;117H8[6;28H([46m) [m: WorldPlugin()[6;45H[K[6;27H[46m([m[1C [17;117H7[6;27H([46m) [m: WorldPlugin()[6;44H[K[6;26H[46m([m[1C [17;117H6[6;26H([46m) [m: WorldPlugin()[6;43H[K[6;25H[46m([m[1C [17;117H5[6;25H([46m) [m: WorldPlugin()[6;42H[K[6;24H[46m([m[1C [17;117H4[6;24H([46m) [m: WorldPlugin()[6;41H[K[6;23H[46m([m[1C [17;117H3[6;23H([46m) [m: WorldPlugin()[6;40H[K[6;22H[46m([m[1C [17;117H2[6;22H([46m) [m: WorldPlugin()[6;39H[K[6;21H[46m([m[1C [17;117H1[6;21H([46m) [m: WorldPlugin()[6;38H[K[6;20H[46m([m[1C [17;117H0[6;20H([46m) [m: WorldPlugin()[6;37H[K[6;19H[46m([m[1C [17;116H19[6;19H([46m) [m: WorldPlugin()[6;36H[K[6;18H[46m([m[1C [17;117H8[6;18H([46m) [m: WorldPlugin()[6;35H[K[6;17H[46m([m[1C [17;117H7[6;17H([46m) [m: WorldPlugin()[6;34H[K[6;16H[46m([m[1C [17;117H6[6;16H([46m) [m: WorldPlugin()[6;33H[K[6;15H[46m([m[1C [17;117H5[6;15H([46m) [m: WorldPlugin()[6;32H[K[6;14H[46m([m[1C [17;117H4[6;14H[46mw([m) : WorldPlugin()[6;14Hw[1C[46m)[m[17;117H5[6;15H[46me([m) : WorldPlugin()[6;15He[1C[46m)[m[17;117H6[6;16H[46ml([m) : WorldPlugin()[6;16Hl[1C[46m)[m[17;117H7[6;17H[46mc([m) : WorldPlugin()[6;17Hc[1C[46m)[m[17;117H8[6;18H([46m) [m: WorldPlugin()[6;35H[K[6;17H[46m([m[1C [17;117H7[6;17H([46m) [m: WorldPlugin()[6;34H[K[6;16H[46m([m[1C [17;117H6[6;16H([46m) [m: WorldPlugin()[6;33H[K[6;15H[46m([m[1C [17;117H5[6;15H([46m) [m: WorldPlugin()[6
